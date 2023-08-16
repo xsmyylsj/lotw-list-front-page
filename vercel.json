@@ -1,7 +1,8 @@
 {
   "headers": [
     {
-      "source": "/(.*)",
+      "source": "/lotw-api/(.*)",
+      "destination": "/api/proxy"
       "headers": [
         { "key": "Access-Control-Allow-Credentials", "value": "true" },
         { "key": "Access-Control-Allow-Origin", "value": "*" },
