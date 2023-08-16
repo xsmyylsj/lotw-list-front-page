@@ -1,4 +1,4 @@
 const configs = {
-    apiBaseURL: 'http://149.28.37.224'
+    apiBaseURL: '/lotw-api'
 }
 export default configs
